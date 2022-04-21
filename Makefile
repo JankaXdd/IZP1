@@ -1,7 +1,7 @@
-default: setcal
+default: pwcheck
 
-setcal: setcal.c
-	gcc -std=c99 -Wall -Wextra -Werror setcal.c -o setcal 
+setcal: pwcheck.c
+	gcc -std=c99 -Wall -Wextra -Werror pwcheck.c -o pwcheck 
 
 clean:
-	rm -f setcalls
+	rm -f pwcheck
