@@ -24,3 +24,4 @@ PARAM
 
 --stats
   -if specified, determines that summary statistics of the analyzed passwords should be displayed at the end of the program.
+
